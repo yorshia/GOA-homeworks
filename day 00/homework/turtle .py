@@ -1,0 +1,36 @@
+from os import read
+from turtle import *
+
+speed(3)
+width(7)
+color("red")
+begin_fill()
+forward(200) 
+left(90)
+
+forward(200)
+left(90)
+
+forward(200)
+left(90)
+
+forward(100)
+left(90)
+end_fill()
+color("black")
+right(70)
+forward(100)
+left(90)
+format(100)
+left(90)
+forward(100)
+right(60)
+forward(100)
+right(60)
+forward(100)
+right(60)
+forward(100)
+right(60)
+forward(100)
+right(60)
+forward(100)
