@@ -14,5 +14,5 @@ print("5"+"5")
 print("2"+"2")
 
 print(1.4 + 4.5)
-print(float(5.5 +3)
-print(float(2.3 + 5)
+print(5.5 +3.3)
+print(2.3 + 5.5)
