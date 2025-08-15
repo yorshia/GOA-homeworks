@@ -30,5 +30,5 @@ else:
 
 for i in range(3):
     name = input("შეიყვანეთ სახელი: ")
-    print("შეყვანილი სახელია:", name)
+    print("შეყვანილი სახელია:")
 
