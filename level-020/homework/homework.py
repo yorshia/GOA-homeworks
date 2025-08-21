@@ -19,18 +19,18 @@ for i in range(100, 201):
 #ხოლო while იქამდე მუშაობს სანამ სწორია პორპბა
 
 
-i = 1  # ვიწყებთ 1-დან
+i = 1  
 
 while i <= 10:  
     print(i)    
     i += 1      
 
-    # password="2009"
-    # user_input=input("გთხოვთ შეიყვანე პასვორდი")
-    # while password !=user_input:
-    #    print("პაროლი არასწორია ცადე თავიდან")
-    #    user_input=input("გთხოვ შეიყვანე პაროლი სწორად")
-    #    print("პაროლი არის სწორი")
+    password="2009"
+    user_input=input("გთხოვთ შეიყვანე პასვორდი")
+    while password !=user_input:
+       print("პაროლი არასწორია ცადე თავიდან")
+       user_input=input("გთხოვ შეიყვანე პაროლი სწორად")
+       print("პაროლი არის სწორი")
 
 
        
