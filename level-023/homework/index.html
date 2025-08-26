@@ -1,0 +1,68 @@
+
+<!-- typeეს ამბობს ბრაუზერს, რა ტიპის ველია ანუ რა უნდა შეიყვანოს მომხმარებ -->
+ <!-- name არის ველის სახელი, რომლითაც ეს ველი იცნობა, როცა ფორმას აგზავნი -->
+  <!-- id არის უნიკალური იდენტიფიკატორი —ჯობია არ გაგიმეორდეს გვერდზე -->
+   <!-- value ს არის იმ ველის თავდაპირველი მნიშვნელობა, რაც ავტომატურად იქნება შევსებული -->
+  <!-- placeholder  ეს არის მინიშნება ველში  რასაც ველი "ჩუმად გვეუბნება", სანამ არაფერია ჩაწერილი. -->. 
+   <!-- required თუ ეს წერია ველში მაშინ ამ ველის შევსება აუცილებელია ფორმის გაგზავნამდე -->
+  <!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>პროდუქტების მაღაზია</title>
+</head>
+<body>
+
+  <h1>მოგესალმებით პროდუქტების მაღაზიაში!</h1>
+
+  <img src="https://via.placeholder.com/400x150?text=მაღაზია" alt="მაღაზიის სურათი">
+
+ 
+  <h2>ჩვენი პროდუქტები:</h2>
+  <ul>
+    <li>ვაშლი - 3₾ <br>
+      <img src="https://via.placeholder.com/100?text=ვაშლი" alt="ვაშლი">
+    </li><br>
+
+    <li>ბანანი - 2₾ <br>
+      <img src="https://via.placeholder.com/100?text=ბანანი" alt="ბანანი">
+    </li>
+  </ul>
+
+
+  <h2>დაამატე ახალი პროდუქტი</h2>
+
+  <form>
+   
+    <label for="name">პროდუქტის სახელი:</label><br>
+    <input 
+      type="text" 
+      id="name" 
+      name="productName" 
+      placeholder="მაგ: ფორთოხალი" 
+      required
+    ><br><br>
+
+ 
+    <label for="price">ფასი (₾):</label><br>
+    <input 
+      type="number" 
+      id="price" 
+      name="productPrice" 
+      placeholder="მაგ: 5" 
+      required
+    ><br><br>
+
+    <label for="image">სურათის ბმული:</label><br>
+    <input 
+      type="text" 
+      id="image" 
+      name="productImage" 
+      placeholder="მაგ: https://example.com/apple.jpg"
+    ><br><br>
+
+    <input type="submit" value="პროდუქტის დამატება">
+  </form>
+
+</body>
+</html>
