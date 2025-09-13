@@ -50,3 +50,35 @@ print(text.capitalize())
 text = "new line first"
 print(text.capitalize())
 
+
+
+text = "goa group"
+print(text.title())
+
+text = "saqartvelo tbilisi"
+print(text.title())
+
+text = "goat best"
+print(text.title())
+
+text = "group77 best"
+print(text.title())
+
+text = "ver bfiqrob"
+print(text.title())
+
+
+
+text = "position'"
+print(text.find("position")) 
+
+text = "abcdifg"
+print(text.find("abc"))  
+
+text = "bbc abc"
+print(text.find("ABC"))  
+
+text = "missing goa student"
+print(text.find("missing"))  
+
+
