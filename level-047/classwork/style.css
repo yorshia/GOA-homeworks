@@ -1,0 +1,42 @@
+button {
+        background-color: rgb(0, 123, 255);
+        color: white;
+
+    }
+    button:hover {
+        background-color: rgb(0, 90, 200);
+    }
+
+
+    .hex-btn {
+        background-color: #ff7b00;
+        color: #ffffff;
+    }
+    .hex{
+        transform: scale(1.1);
+        background-color: #ffa64d;
+    }
+
+
+    #GIO1 {
+        background-color: gold;
+        color: black;
+    }
+    #GIO2 {
+        background-color: limegreen;
+        color: white;
+    }
+    #GIO3 {
+        background: linear-gradient(45deg, #00c3ff, #0047ff);
+        color: white;
+
+    }
+    #GIO4 {
+        background-color: crimson;
+        color: white;
+    }
+    #GIO5 {
+        background-color: purple;
+        color: white;
+
+    }

@@ -13,5 +13,5 @@ print(5/2)
 
 print(5//2)
 
-if True  and 20 % 2 == 0:
-    print("agagag")
+# if True  and 20 % 2 == 0:
+#     print("agagag14")

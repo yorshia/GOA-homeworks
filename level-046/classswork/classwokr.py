@@ -20,4 +20,5 @@ num[1]="tato bizia"
 print(num)
 
 num[1],num[2] = num[3],num[1]
+
 print(num)
