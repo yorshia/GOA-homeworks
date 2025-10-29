@@ -1,0 +1,40 @@
+ p{
+    text-align: left;
+    color: darkblue;
+    font-weight: bold;
+}
+
+ .gio1{
+    text-align: center;
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+.gio2{
+    text-align: right;
+    color: crimson;
+    font-style: italic;
+    text-shadow: 2px 2px 4px gray;
+}
+
+ .gio3 {
+    text-align: justify;
+    color: purple;
+    background-color: lavender;
+    padding: 10px;
+}
+
+.gio4{
+    text-align: center;
+    text-decoration: overline;
+    color: orange;
+    font-size: 20px;
+}
+
+.gio5 {
+    text-align: left;
+    color: teal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px black;
+}
