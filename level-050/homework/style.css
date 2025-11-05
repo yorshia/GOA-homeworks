@@ -1,0 +1,39 @@
+.hover-button {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+ 
+}
+
+.hover-button:hover {
+  background-color: #bd1414;
+  border: 2px solid black;
+}
+
+
+.highlight {
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.special {
+  border: 2px solid green;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.press-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #888;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+
+}
+
+.press-button:active {
+  transform: translateY(2px);
+  border-color: #444;
+}

@@ -1,0 +1,71 @@
+
+.gio{
+  width: 150px;
+  height: 150px;
+  background-color: #4caf50;
+  color: white;
+  align-items: center;
+  border: 3px solid #2e7d32;
+  border-radius: 15px;
+
+}
+
+.tato {
+  background-color: #81c784;
+  transform: scale(1.1);
+}
+
+
+.nika{
+  background-color: #e91e63;
+  border-color: #ad1457;
+}
+
+.daviti{
+  background-color: #2196f3;
+  border-radius: 50%;
+  border-color: #0d47a1;
+}
+
+.tekla {
+  background-color: #ff9800;
+  border-style: dashed;
+}
+
+
+button {
+  padding: 12px 30px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+ 
+}
+
+.btn1 {
+  background-color: #2196f3;
+  border-radius: 8px;
+}
+
+
+.btn2 {
+  background-color: #4caf50;
+  border-radius: 30px;
+}
+
+.btn3 {
+  background-color: #e91e63;
+  border: 2px solid transparent;
+}
+
+.btn4 {
+  background:(45deg, #ff9800, #ff5722);
+  border-radius: 10px;
+
+}
+
+
+.btn5 {
+  background-color: #9c27b0;
+  border-radius: 5px;
+}
