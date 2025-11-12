@@ -6,75 +6,30 @@ a {
   display: inline-block;
 }
 
-/* ლინკი 1 — ხაზგასმული */
 .gio1 {
   color: #1a73e8;
   text-decoration: underline;
 }
-.link1:hover {
-  color: #0b57d0;
-  text-decoration: none;
-}
-.link1:active {
-  color: #0039cb;
-  text-decoration: underline dotted;
-}
 
-/* ლინკი 2 — ხაზის ზემოთ */
+
 .link2:link {
   color: #d93025;
   text-decoration: overline;
 }
-.link2:hover {
-  color: #a52714;
-  text-decoration: underline;
-}
-.link2:active {
-  color: #7f0000;
-  text-decoration: line-through;
-}
 
-/* ლინკი 3 — ხაზის შუაში */
+
 .link3:link {
   color: #188038;
   text-decoration: line-through;
 }
-.link3:hover {
-  color: #0f6b2e;
-  text-decoration: underline wavy;
-}
-.link3:active {
-  color: #0b4f1a;
-  text-decoration: none;
-}
 
-/* ლინკი 4 — ორმაგი ხაზით */
 .link4:link {
   color: #e37400;
   text-decoration: underline double;
 }
-.link4:hover {
-  color: #c25d00;
-  text-decoration: underline dashed;
-}
-.link4:active {
-  color: #a34700;
-  text-decoration: underline dotted;
-}
 
-/* ლინკი 5 — ჩრდილით */
 .link5:link {
   color: #5f6368;
   text-decoration: none;
   text-shadow: 1px 1px 2px #aaa;
-}
-.link5:hover {
-  color: #202124;
-  text-decoration: underline;
-  text-shadow: 2px 2px 4px #888;
-}
-.link5:active {
-  color: #000;
-  text-decoration: underline wavy;
-  text-shadow: none;
 }

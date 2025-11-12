@@ -1,0 +1,34 @@
+body {
+    border: none;
+  background: #f4f4f4;
+     text-align: center;
+
+}
+
+.leaderboard {
+ 
+  background: white;
+  border-radius: 12px;
+  width: 500px;
+}
+
+table {
+  width: 100%;
+  border-style: dashed;
+}
+
+thead {
+  background-color: #04bd1c;
+  color: white;
+}
+.gio1{
+    color: green;
+}
+.gio2{
+    color: #04bd1c;
+
+}
+.gio3{
+    color: green;
+}
+  
