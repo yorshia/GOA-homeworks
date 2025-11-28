@@ -1,0 +1,29 @@
+
+
+    body {
+      font-family: Arial;
+      background-color: #f4f4f4;
+      padding: 20px;
+      display:flex;
+      justify-content: center;
+    }
+    *{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    .gio {
+      display: grid;
+      gap: 20px;
+    }
+    .box {
+      padding: 15px;
+      border-radius: 8px;
+      color: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .blue { background-color: #007BFF; }
+    .orange { background-color: #FD7E14; }
+    .red { background-color: #DC3545; }
+    .gray { background-color: #6C757D; }

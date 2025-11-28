@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+   <!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flex Practice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+      <!-- 100vh ნიშნავს "100% viewport height".
+   ანუ ელემენტი იკავებს ეკრანის მთელ სიმაღლეს,
+   რამდენიც ბრაუზერის ფანჯარაა (visible area)
+ width: 100% ნიშნავს "100% მშობელი ელემენტის სიგანე".
+   ანუ ელემენტი იკავებს მთლიან სიგანეს იმ კონტეინერის,
+   სადაც მოთავსებულია. 
+width: 100%; -->
+ <!-- Flexbox არის CSS-ის განლაგების  მოდელი
+   რომელიც საშუალებას გვაძლევს ელემენტები მოქნილად და მარტივად
+   განვათავსოთ კონტეინერში  -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">GioDev</div>
+      <nav class="nav">
+        <a href="#">მთავარი</a>
+        <a href="#">პროექტები</a>
+        <a href="#">კონტაქტი</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Flex Layout Mastery</h1>
+        <p>აშენე სუფთა, სკეილირებადი ლეაუტები მინიმალური CSS-ით.</p>
+        <div class="cta">
+          <a class="btn primary" href="#">დაიწყე ახლა</a>
+          <a class="btn ghost" href="#">იხილე მაგალიები</a>
+        </div>
+      </div>
+      <div class="hero-image"></div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container features-grid">
+      <article class="card">
+        <h3>Simple Navbar</h3>
+        <p>space-between, gap და wrap მარტივი კონტროლისთვის.</p>
+      </article>
+      <article class="card">
+        <h3>Two-Column Hero</h3>
+        <p>flex-basis + grow რეზპონსივისთვის.</p>
+      </article>
+      <article class="card">
+        <h3>Cards Row</h3>
+        <p>equal-height ბარათები align-stretch-ით.</p>
+      </article>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2025 Gio</div>
+      <div class="footer-links">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

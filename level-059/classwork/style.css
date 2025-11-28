@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.giorgi {
+    background-color: #e40d0d;
+    padding: 20px;
+    margin: 20px ;
+    border-radius: 10px;
+}
+
+.giorgi h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gio{
+    background: #e5e5e5;
+    padding: 30px 40px;
+    border-radius: 6px;
+}
