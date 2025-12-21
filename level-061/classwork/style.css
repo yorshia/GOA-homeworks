@@ -15,12 +15,12 @@ body {
 }
 
 .container {
+  background: #eef3ff;
+  font-family: "Inter", sans-serif;
   display: flex;
-  background: white;
-  border-radius: 20px;
-  overflow: hidden;
-  width: 650px;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .result {

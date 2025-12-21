@@ -1,0 +1,45 @@
+.my-box {
+  width: 200px;          
+  height: 150px;         
+  background-color: teal;
+  color: white;         
+  font-size: 20px;       
+  text-align: center;      
+  position: relative;   
+  top: 100px;           
+  left: 100px;           
+}
+.gorila{
+     width: 220px;            
+  height: 160px;          
+  background-color: crimson; 
+  color: white;            
+  font-size: 20px;         
+  text-align: center;            
+  position: absolute;      
+  top: 230px;           
+  right: 140px;      
+}
+
+.giorgi{
+    width: 200px;             
+  height: 150px;            
+  background-color: darkblue; 
+  color: white;             
+  font-size: 20px;          
+  text-align: center;             
+  position: fixed;          
+  top: 50px;              
+  left: 50px;   
+}
+.tato{
+  width: 500px;                 
+  height: 500px;               
+  border: 3px solid black;      
+
+  background-image: url('./Screenshot\ 2025-11-07\ 215102.png'); 
+  background-size: cover;        
+  background-position: center;  
+  background-repeat: no-repeat;  
+}
+

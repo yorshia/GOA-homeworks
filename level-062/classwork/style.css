@@ -1,0 +1,52 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gio {
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.art {
+    border-radius: 15px;
+    width: 350px;
+    align-self: center;
+}
+
+.pfp {
+    width: 40px;
+}
+
+.gio1 {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#giogio {
+    font-size: 18px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+}
+
